@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 
-	"github.com/krakendio/binder"
-	lua "github.com/krakendio/krakend-lua/v2"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
+	"github.com/davron112/binder"
+	lua "github.com/davron112/krakend-lua/v2"
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/logging"
+	"github.com/davron112/lura/v2/proxy"
 )
 
 const (

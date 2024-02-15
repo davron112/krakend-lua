@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/krakendio/binder"
-	lua "github.com/krakendio/krakend-lua/v2"
-	"github.com/krakendio/krakend-lua/v2/router"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
-	mux "github.com/luraproject/lura/v2/router/mux"
+	"github.com/davron112/binder"
+	lua "github.com/davron112/krakend-lua/v2"
+	"github.com/davron112/krakend-lua/v2/router"
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/logging"
+	"github.com/davron112/lura/v2/proxy"
+	mux "github.com/davron112/lura/v2/router/mux"
 )
 
 func RegisterMiddleware(l logging.Logger, e config.ExtraConfig, pe mux.ParamExtractor, mws []mux.HandlerMiddleware) []mux.HandlerMiddleware {

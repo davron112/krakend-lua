@@ -8,8 +8,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/krakendio/binder"
-	"github.com/luraproject/lura/v2/proxy"
+	"github.com/davron112/binder"
+	"github.com/davron112/lura/v2/proxy"
 	lua "github.com/yuin/gopher-lua"
 )
 

@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/krakendio/binder"
+	"github.com/davron112/binder"
 	lua "github.com/yuin/gopher-lua"
 
-	"github.com/luraproject/lura/v2/transport/http/server"
+	"github.com/davron112/lura/v2/transport/http/server"
 )
 
 func registerHTTPRequest(ctx context.Context, b *binder.Binder) {

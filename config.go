@@ -8,8 +8,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/logging"
 )
 
 type Config struct {

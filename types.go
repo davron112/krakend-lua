@@ -1,7 +1,7 @@
 package lua
 
 import (
-	"github.com/krakendio/binder"
+	"github.com/davron112/binder"
 )
 
 func RegisterNil(b *binder.Binder) {

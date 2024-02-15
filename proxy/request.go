@@ -7,8 +7,8 @@ import (
 	"net/textproto"
 	"net/url"
 
-	"github.com/krakendio/binder"
-	"github.com/luraproject/lura/v2/proxy"
+	"github.com/davron112/binder"
+	"github.com/davron112/lura/v2/proxy"
 )
 
 func registerRequestTable(req *proxy.Request, b *binder.Binder) {

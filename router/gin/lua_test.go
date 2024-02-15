@@ -6,11 +6,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/davron112/krakend-lua/v2/router"
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/logging"
+	"github.com/davron112/lura/v2/proxy"
 	"github.com/gin-gonic/gin"
-	"github.com/krakendio/krakend-lua/v2/router"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
 )
 
 func TestHandlerFactory(t *testing.T) {
